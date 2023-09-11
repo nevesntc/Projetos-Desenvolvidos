@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serenity Flow - Studio de Yoga</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+
+body, h1, h2, h3, p, blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Times New Roman', Times, serif
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+header {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.header-image {
+    background-image: url('https://static.vecteezy.com/ti/vetor-gratis/p1/7685802-feminino-yoga-banner-com-letras-e-pessoas-personagem-praticando-asana-meditation-classes-and-yoga-studio-courses-web-banner-template-flat-vector-illustration-vetor.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 64px;
+}
+
+.header-image h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.header-image p {
+    font-size: 20px;
+}
+
+
+#about {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-content img {
+    width: 50%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+
+#instructors {
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+.instructor {
+    text-align: center;
+    margin: 20px;
+}
+
+.instructor img {
+    width: 80%;
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+
+#classes {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+}
+
+.class {
+    text-align: center;
+    margin: 20px;
+}
+
+.class img {
+    width: 80px;
+    height: 80px;
+}
+
+
+#testimonials {
+    padding: 40px 0;
+}
+
+.testimonial {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+}
+
+
+#mission {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+}
+
+
+#contact {
+    padding: 40px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    background-color: #28a745;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+    background-color: #1e7e34;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+    }
+
+    .about-content img {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+</style>
+<body>
+    <header>
+        <div class="header-image">
+            <h1>Serenity Flow - Studio de Yoga</h1>
+            <p>espaço para a prática de yoga.</p>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <div class="about-content">
+                <img src="https://www.eusemfronteiras.com.br/wp-content/uploads/2015/04/shutterstock_713186671-810x540.jpg" alt="Pessoa praticando yoga">
+                <p>No Serenity Flow, estamos comprometidos em ajudar você a encontrar a harmonia interior por meio da prática do yoga. Nossos instrutores apaixonados e experientes o guiarão em uma jornada de descoberta pessoal.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="instructors">
+        <div class="container">
+            <h2>Nossos Instrutores</h2>
+            <div class="instructor">
+                <h3>Joao Silva</h3>
+                <p>Especialista em Analise Corporal</p>
+            </div>
+            <div class="instructor">
+                <h3>Jorge Miguel</h3>
+                <p>Analista de Desempenho</p>
+            </div>
+            <div class="instructor">
+                <h3>Janaina Xavier</h3>
+                <p>Professora de Meditação</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="classes">
+        <div class="container">
+            <h2>Nossas Aulas</h2>
+            <div class="class">
+                <h3>Analise Corporal</h3>
+                <p>A aula de analise corporal combina movimento fluido com respiração consciente para criar uma prática tranquila.</p>
+            </div>
+            <div class="class">
+                <h3>Yin</h3>
+                <p>A analise de desempenho é uma prática suave, mas profunda, que trabalha nas camadas mais profundas do corpo, promovendo relaxamento e flexibilidade.</p>
+            </div>
+            <div class="class">
+                <h3>Meditação</h3>
+                <p>Nossas aulas de meditação ajudam a acalmar a mente, reduzir o estresse e aumentar a consciência do momento presente.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="container">
+            <h2>O Que Nossos Alunos Dizem</h2>
+            <div class="testimonial">
+                <blockquote>
+                    "O Serenity Flow é mais do que um studio de yoga, é um refúgio para o corpo e a alma. As aulas me ajudaram a encontrar equilíbrio e serenidade na agitação da vida cotidiana." - Maria S.
+                </blockquote>
+            </div>
+            <div class="testimonial">
+                <blockquote>
+                    "Os instrutores são incríveis! Eles são atenciosos, dedicados e realmente se importam com o progresso de cada aluno." - João R.
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <section id="mission">
+        <div class="container">
+            <h2>Nossa Missão</h2>
+            <p>No Serenity Flow, nossa missão é criar um espaço onde você possa se reconectar consigo mesmo, encontrar a paz interior e melhorar sua qualidade de vida. Acreditamos que o yoga é uma ferramenta poderosa para alcançar esse equilíbrio.</p>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <p>Entre em contato para obter mais informações ou agendar uma aula experimental!</p>
+            <div class="contact-info">
+                <p>Endereço: Av. Otávio Gomes, 500 - Centro, Vassouras - RJ, 27700-000</p>
+                <p>Email: aulas@serenityflowyoga.com</p>
+                <p>Telefone: (24) 4002-8922</p>
+            </div>
+            <a href="#signup" class="button">Inscreva-se para uma Aula Experimental</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Serenity Flow - Studio de Yoga. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
