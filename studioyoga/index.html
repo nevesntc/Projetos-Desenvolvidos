@@ -4,164 +4,108 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Serenity Flow - Studio de Yoga</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+  
+        body, h1, h2, h3, p, blockquote {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+ 
+        header {
+            background-color: white;
+            text-align: center;
+        }
+
+        .header-image {
+            background-image: url('https://static.vecteezy.com/ti/vetor-gratis/p1/7685802-feminino-yoga-banner-com-letras-e-pessoas-personagem-praticando-asana-meditation-classes-and-yoga-studio-courses-web-banner-template-flat-vector-illustration-vetor.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            padding: 32px;
+        }
+
+        .header-image h1 {
+            font-size: 36px;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+        }
+
+        .header-image p {
+            font-size: 20px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
+        }
+
+
+
+        section {
+            padding: 40px 0;
+        }
+
+        .about-content img {
+            width: 50%;
+            max-width: 400px;
+            border-radius: 10px;
+        }
+
+        .instructor {
+            text-align: center;
+            margin: 20px;
+        }
+
+        .instructor img {
+            width: 80%;
+            max-width: 200px;
+            border-radius: 50%;
+        }
+
+        .class img {
+            width: 80px;
+            height: 80px;
+        }
+
+        .testimonial {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: white;
+            color: #fff;
+            padding: 15px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .button:hover {
+            background-color: white;
+        }
+
+    </style>
 </head>
-<style>
-
-body, h1, h2, h3, p, blockquote {
-    margin: 0;
-    padding: 0;
-}
-
-
-body {
-    font-family: 'Times New Roman', Times, serif
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-
-}
-
-header {
-    background-color: #f5f5f5;
-    text-align: center;
-    padding: 60px 0;
-}
-
-.header-image {
-    background-image: url('https://static.vecteezy.com/ti/vetor-gratis/p1/7685802-feminino-yoga-banner-com-letras-e-pessoas-personagem-praticando-asana-meditation-classes-and-yoga-studio-courses-web-banner-template-flat-vector-illustration-vetor.jpg');
-    background-size: cover;
-    background-position: center;
-    color: #fff;
-    padding: 64px;
-}
-
-.header-image h1 {
-    font-size: 36px;
-    font-weight: bold;
-}
-
-.header-image p {
-    font-size: 20px;
-}
-
-
-#about {
-    background-color: #f9f9f9;
-    padding: 40px 0;
-}
-
-.about-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.about-content img {
-    width: 50%;
-    max-width: 400px;
-    border-radius: 10px;
-}
-
-
-#instructors {
-    padding: 40px 0;
-    background-color: #fff;
-}
-
-.instructor {
-    text-align: center;
-    margin: 20px;
-}
-
-.instructor img {
-    width: 80%;
-    max-width: 200px;
-    border-radius: 50%;
-}
-
-
-#classes {
-    background-color: #f9f9f9;
-    padding: 40px 0;
-}
-
-.class {
-    text-align: center;
-    margin: 20px;
-}
-
-.class img {
-    width: 80px;
-    height: 80px;
-}
-
-
-#testimonials {
-    padding: 40px 0;
-}
-
-.testimonial {
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    margin: 20px;
-}
-
-
-#mission {
-    background-color: #f9f9f9;
-    padding: 40px 0;
-}
-
-
-#contact {
-    padding: 40px 0;
-    background-color: #fff;
-    text-align: center;
-}
-
-.button {
-    display: inline-block;
-    background-color: #28a745;
-    color: #fff;
-    padding: 15px 30px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background-color 0.3s ease-in-out;
-}
-
-.button:hover {
-    background-color: #1e7e34;
-}
-
-
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-}
-
-
-
-@media (max-width: 768px) {
-    .about-content {
-        flex-direction: column;
-    }
-
-    .about-content img {
-        width: 100%;
-        max-width: 300px;
-    }
-}
-
-</style>
 <body>
     <header>
         <div class="header-image">
@@ -184,8 +128,8 @@ footer {
         <div class="container">
             <h2>Nossos Instrutores</h2>
             <div class="instructor">
-                <h3>Joao Silva</h3>
-                <p>Especialista em Analise Corporal</p>
+                <h3>João Silva</h3>
+                <p>Especialista em Análise Corporal</p>
             </div>
             <div class="instructor">
                 <h3>Jorge Miguel</h3>
@@ -202,12 +146,12 @@ footer {
         <div class="container">
             <h2>Nossas Aulas</h2>
             <div class="class">
-                <h3>Analise Corporal</h3>
-                <p>A aula de analise corporal combina movimento fluido com respiração consciente para criar uma prática tranquila.</p>
+                <h3>Análise Corporal</h3>
+                <p>A aula de análise corporal combina movimento fluido com respiração consciente para criar uma prática tranquila.</p>
             </div>
             <div class="class">
                 <h3>Yin</h3>
-                <p>A analise de desempenho é uma prática suave, mas profunda, que trabalha nas camadas mais profundas do corpo, promovendo relaxamento e flexibilidade.</p>
+                <p>A análise de desempenho é uma prática suave, mas profunda, que trabalha nas camadas mais profundas do corpo, promovendo relaxamento e flexibilidade.</p>
             </div>
             <div class="class">
                 <h3>Meditação</h3>
@@ -234,28 +178,8 @@ footer {
 
     <section id="mission">
         <div class="container">
-            <h2>Nossa Missão</h2>
-            <p>No Serenity Flow, nossa missão é criar um espaço onde você possa se reconectar consigo mesmo, encontrar a paz interior e melhorar sua qualidade de vida. Acreditamos que o yoga é uma ferramenta poderosa para alcançar esse equilíbrio.</p>
+            <h2>Contato</h2>
+            <a href="tel:(24) 4002-8922">(24) 4002-8922</a>
         </div>
     </section>
-    <section id="contact">
-        <div class="container">
-            <h2>Entre em Contato</h2>
-            <p>Entre em contato para obter mais informações ou agendar uma aula experimental!</p>
-            <div class="contact-info">
-                <p>Endereço: Av. Otávio Gomes, 500 - Centro, Vassouras - RJ, 27700-000</p>
-                <p>Email: aulas@serenityflowyoga.com</p>
-                <p>Telefone: (24) 4002-8922</p>
-            </div>
-            <a href="#signup" class="button">Inscreva-se para uma Aula Experimental</a>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2023 Serenity Flow - Studio de Yoga. Todos os direitos reservados.</p>
-            </div>
-        </div>
-    </footer>
-</body>
-</html>
+    <section
